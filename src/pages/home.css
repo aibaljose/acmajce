@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  scroll-behavior: smooth;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+  min-height: 100vh;
+  background-color: #0d0d0d;
+  font-family: "Poppins", sans-serif;
+  /* display: flex;flex-direction: column; */
+
+  align-items: center;
+  width: 100%;
+  /* background: radial-gradient(ellipse at 51% 68%,#cd3e3e, #5a05055a, #0d0d0d) */
+  /* background: url("image.png");
+  background-size: cover;
+  background-position: center center; */
+}
+.home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.hero {
+  margin-top: 80px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+  width: 100%;
+
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 2000 1400%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cmask id=%22b%22 x=%220%22 y=%220%22 width=%222000%22 height=%221400%22%3E%3Cpath fill=%22url(%23a)%22 d=%22M0 0h2000v1400H0z%22%2F%3E%3C%2Fmask%3E%3Cpath fill=%22%230d0d0d%22 d=%22M0 0h2000v1400H0z%22%2F%3E%3Cg style=%22transform-origin:center center%22 stroke=%22%239e1035%22 stroke-width=%22.8%22 mask=%22url(%23b)%22%3E%3Cpath fill=%22none%22 d=%22M0 0h60.606v60.606H0zM60.606 0h60.606v60.606H60.606zM545.455 0h60.606v60.606h-60.606zM606.061 0h60.606v60.606h-60.606zM1151.515 0h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035ff%22 d=%22M1272.727 0h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e103596%22 d=%22M1575.758 0h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1696.97 0h60.606v60.606h-60.606zM1878.788 0h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e10351c%22 d=%22M60.606 60.606h60.606v60.606H60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M121.212 60.606h60.606v60.606h-60.606zM484.848 60.606h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035e1%22 d=%22M666.667 60.606h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035bb%22 d=%22M1212.121 60.606h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M121.212 121.212h60.606v60.606h-60.606zM545.455 121.212h60.606v60.606h-60.606zM606.061 121.212h60.606v60.606h-60.606zM727.273 121.212h60.606v60.606h-60.606zM909.091 121.212h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e103522%22 d=%22M969.697 121.212h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e103572%22 d=%22M1030.303 121.212h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1151.515 121.212h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e10351e%22 d=%22M1393.939 121.212h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1515.152 121.212h60.606v60.606h-60.606zM1696.97 121.212h60.606v60.606h-60.606zM242.424 181.818h60.606v60.606h-60.606zM363.636 181.818h60.606v60.606h-60.606zM666.667 181.818h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035fe%22 d=%22M787.879 181.818h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035de%22 d=%22M1393.939 181.818h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1454.545 181.818h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e10355f%22 d=%22M1515.152 181.818h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1575.758 181.818h60.606v60.606h-60.606zM1939.394 181.818H2000v60.606h-60.606zM181.818 242.424h60.606v60.606h-60.606zM363.636 242.424h60.606v60.606h-60.606zM666.667 242.424h60.606v60.606h-60.606zM727.273 242.424h60.606v60.606h-60.606zM848.485 242.424h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e103508%22 d=%22M1515.152 242.424h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035ea%22 d=%22M1696.97 242.424h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035a0%22 d=%22M1757.576 242.424h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035e5%22 d=%22M1818.182 242.424h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M0 303.03h60.606v60.606H0zM60.606 303.03h60.606v60.606H60.606zM121.212 303.03h60.606v60.606h-60.606zM727.273 303.03h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e103563%22 d=%22M848.485 303.03h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1151.515 303.03h60.606v60.606h-60.606zM1272.727 303.03h60.606v60.606h-60.606zM1333.333 303.03h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035ff%22 d=%22M1454.545 303.03h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M60.606 363.636h60.606v60.606H60.606zM303.03 363.636h60.606v60.606H303.03zM545.455 363.636h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e103595%22 d=%22M969.697 363.636h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1575.758 363.636h60.606v60.606h-60.606zM1636.364 363.636h60.606v60.606h-60.606zM1818.182 363.636h60.606v60.606h-60.606zM1878.788 363.636h60.606v60.606h-60.606zM60.606 424.242h60.606v60.606H60.606zM727.273 424.242h60.606v60.606h-60.606zM848.485 424.242h60.606v60.606h-60.606zM909.091 424.242h60.606v60.606h-60.606zM1030.303 424.242h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035e6%22 d=%22M1090.909 424.242h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1393.939 424.242h60.606v60.606h-60.606zM1515.152 424.242h60.606v60.606h-60.606zM1696.97 424.242h60.606v60.606h-60.606zM1757.576 424.242h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035a6%22 d=%22M1939.394 424.242H2000v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M606.061 484.848h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e10350b%22 d=%22M666.667 484.848h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1151.515 484.848h60.606v60.606h-60.606zM1454.545 484.848h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e10357b%22 d=%22M1818.182 484.848h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M60.606 545.455h60.606v60.606H60.606z%22%2F%3E%3Cpath fill=%22%239e10353e%22 d=%22M1090.909 545.455h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1454.545 545.455h60.606v60.606h-60.606zM1636.364 545.455h60.606v60.606h-60.606zM121.212 606.061h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e10359e%22 d=%22M424.242 606.061h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M484.848 606.061h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035a9%22 d=%22M545.455 606.061h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M666.667 606.061h60.606v60.606h-60.606zM1333.333 606.061h60.606v60.606h-60.606zM1393.939 606.061h60.606v60.606h-60.606zM121.212 666.667h60.606v60.606h-60.606zM181.818 666.667h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035b8%22 d=%22M303.03 666.667h60.606v60.606H303.03z%22%2F%3E%3Cpath fill=%22%239e10358b%22 d=%22M484.848 666.667h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M909.091 666.667h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035ce%22 d=%22M1393.939 666.667h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035b8%22 d=%22M1515.152 666.667h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1757.576 666.667h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035a8%22 d=%22M181.818 727.273h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M424.242 727.273h60.606v60.606h-60.606zM484.848 727.273h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e103555%22 d=%22M666.667 727.273h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e10355d%22 d=%22M727.273 727.273h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M848.485 727.273h60.606v60.606h-60.606zM969.697 727.273h60.606v60.606h-60.606zM1272.727 727.273h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e103570%22 d=%22M1333.333 727.273h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e10357e%22 d=%22M1696.97 727.273h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035db%22 d=%22M1818.182 727.273h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M242.424 787.879h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035c9%22 d=%22M424.242 787.879h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M484.848 787.879h60.606v60.606h-60.606zM606.061 787.879h60.606v60.606h-60.606zM787.879 787.879h60.606v60.606h-60.606zM1333.333 787.879h60.606v60.606h-60.606zM1878.788 787.879h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035b2%22 d=%22M121.212 848.485h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e10356f%22 d=%22M181.818 848.485h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M242.424 848.485h60.606v60.606h-60.606zM484.848 848.485h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e103599%22 d=%22M909.091 848.485h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M969.697 848.485h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e10358c%22 d=%22M1030.303 848.485h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1333.333 848.485h60.606v60.606h-60.606zM1636.364 848.485h60.606v60.606h-60.606zM1878.788 848.485h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e103533%22 d=%22M1939.394 848.485H2000v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M121.212 909.091h60.606v60.606h-60.606zM242.424 909.091h60.606v60.606h-60.606zM363.636 909.091h60.606v60.606h-60.606zM424.242 909.091h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035f0%22 d=%22M606.061 909.091h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035ea%22 d=%22M1030.303 909.091h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1454.545 909.091h60.606v60.606h-60.606zM1515.152 909.091h60.606v60.606h-60.606zM1636.364 909.091h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035a3%22 d=%22M1757.576 909.091h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1939.394 909.091H2000v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e103581%22 d=%22M0 969.697h60.606v60.606H0z%22%2F%3E%3Cpath fill=%22%239e10358d%22 d=%22M242.424 969.697h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M545.455 969.697h60.606v60.606h-60.606zM727.273 969.697h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035f2%22 d=%22M787.879 969.697h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M909.091 969.697h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035c6%22 d=%22M969.697 969.697h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1212.121 969.697h60.606v60.606h-60.606zM1272.727 969.697h60.606v60.606h-60.606zM1515.152 969.697h60.606v60.606h-60.606zM1757.576 969.697h60.606v60.606h-60.606zM0 1030.303h60.606v60.606H0zM727.273 1030.303h60.606v60.606h-60.606zM1515.152 1030.303h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035b7%22 d=%22M1696.97 1030.303h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1757.576 1030.303h60.606v60.606h-60.606zM1939.394 1030.303H2000v60.606h-60.606zM0 1090.909h60.606v60.606H0zM424.242 1090.909h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e1035eb%22 d=%22M484.848 1090.909h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e103532%22 d=%22M666.667 1090.909h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M727.273 1090.909h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e10359c%22 d=%22M969.697 1090.909h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1030.303 1090.909h60.606v60.606h-60.606zM1454.545 1090.909h60.606v60.606h-60.606zM1636.364 1090.909h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e103563%22 d=%22M1757.576 1090.909h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e103568%22 d=%22M1939.394 1090.909H2000v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M60.606 1151.515h60.606v60.606H60.606zM303.03 1151.515h60.606v60.606H303.03zM545.455 1151.515h60.606v60.606h-60.606zM666.667 1151.515h60.606v60.606h-60.606zM60.606 1212.121h60.606v60.606H60.606z%22%2F%3E%3Cpath fill=%22%239e103573%22 d=%22M121.212 1212.121h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M606.061 1212.121h60.606v60.606h-60.606zM727.273 1212.121h60.606v60.606h-60.606zM848.485 1212.121h60.606v60.606h-60.606zM1151.515 1212.121h60.606v60.606h-60.606zM1333.333 1212.121h60.606v60.606h-60.606zM1454.545 1212.121h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e103591%22 d=%22M484.848 1272.727h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M727.273 1272.727h60.606v60.606h-60.606zM787.879 1272.727h60.606v60.606h-60.606zM1030.303 1272.727h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e103551%22 d=%22M1151.515 1272.727h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1212.121 1272.727h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e10352f%22 d=%22M1636.364 1272.727h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M242.424 1333.333h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e10351c%22 d=%22M484.848 1333.333h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M969.697 1333.333h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e10355f%22 d=%22M1636.364 1333.333h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e103582%22 d=%22M1757.576 1333.333h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M1818.182 1333.333h60.606v60.606h-60.606zM1878.788 1333.333h60.606v60.606h-60.606zM606.061 1393.939h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e103555%22 d=%22M787.879 1393.939h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22none%22 d=%22M848.485 1393.939h60.606v60.606h-60.606zM1212.121 1393.939h60.606v60.606h-60.606zM1333.333 1393.939h60.606v60.606h-60.606zM1454.545 1393.939h60.606v60.606h-60.606z%22%2F%3E%3Cpath fill=%22%239e10352b%22 d=%22M1696.97 1393.939h60.606v60.606h-60.606z%22%2F%3E%3C%2Fg%3E%3Cdefs%3E%3CradialGradient id=%22a%22%3E%3Cstop offset=%2250%25%22 stop-color=%22%23fff%22 stop-opacity=%220%22%2F%3E%3Cstop offset=%221%22 stop-color=%22%23fff%22 stop-opacity=%22.5%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3C%2Fsvg%3E");
+
+  /* background: radial-gradient(circle at 50% 68%,#4f0101, #0d0d0d, #0d0d0d) */
+}
+.hero h1 {
+  font-size: 70px;
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+.hero p {
+  font-size: 18px;
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+nav {
+  -webkit-tap-highlight-color: transparent;
+  padding-left: 20px;
+  background-color: #ffffff00;
+  z-index: 1;
+  height: 65px;
+  margin-top: 30px;
+  gap: 20px;
+  position: fixed;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+
+  align-items: center;
+  border: 1px solid #9e103644;
+  border-radius: 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  gap: 30px;
+}
+nav li {
+  padding: 6px;
+  cursor: pointer;
+  text-wrap: nowrap;
+}
+nav li:hover {
+  background-color: #9e103684;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+  border-radius: 8px;
+}
+nav .btn {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #9e1035;
+}
+.btn:hover {
+  background-color: #9e103684;
+}
+.btn2:hover {
+  background-color: #9e103684;
+}
+.btn {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #9e1035;
+  text-decoration: none;
+  list-style: none;
+  border-radius: 8px;
+}
+.btn2 {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #9e1035;
+  text-decoration: none;
+  list-style: none;
+  border-radius: 8px;
+  color: white;
+}
+.btn-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.profilecard {
+  border-bottom-width: 1px;
+  border-color: #9e103665;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 1px;
+  background-color: rgb(24, 24, 24);
+  border-radius: 24px;
+  display: inline-flex;
+  gap: 32px;
+  margin-top: 20px;
+  height: 400px;
+  width: 300px;
+  justify-content: center;
+  /* overflow: hidden; */
+  padding: 32px;
+  position: relative;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  margin-left: 30px;
+  /* margin-right: 10px; */
+  text-decoration: none;
+}
+.profilecard p {
+  font-size: 12px;
+}
+.ourteam {
+  width: 100%;
+  cursor: grab;
+  overflow: auto;
+  white-space: nowrap;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 10%,
+    rgba(0, 0, 0, 1) 90%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 10%,
+    rgba(0, 0, 0, 1) 90%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.section2 {
+  width: 100%;
+  display: flex;
+ justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+  gap: 20px;
+}
+::-webkit-scrollbar {
+  width: 2em;
+  height: 2em;
+}
+.texthere {
+  transform: rotate(-90deg); /* Rotate the text by 45 degrees */
+  transform-origin: center;
+  align-items: center;
+  height: 100%;
+  height: 100%;
+  text-wrap: nowrap;
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1 .btn {
+  bottom: -300px;
+  position: relative;
+  border-radius: 20px;
+}
+.team {
+  width:20px;
+}
+.img2,
+.img4,
+.img5 {
+  background: url("./joel.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img3 {
+  background: url("./aibal.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  nav {
+    width: 95%;
+    bottom: 30px;
+  }
+  .hero h1 {
+    font-size: 50px;
+  }
+  .hero p {
+    padding: 20px;
+    font-size: 14px;
+  }
+  .hero {
+    margin-top: 0;
+    height: 800px;
+  }
+  nav ul {
+    display: flex;
+    gap: 5px;
+  }
+  nav li {
+    font-size: 12px;
+  }
+  nav li:nth-child(4) {
+    display: none;
+  }
+  nav li:nth-child(3) {
+    display: none;
+  }
+
+
+  /* .home{
+  padding-left: 30px;
+  padding-right: 30px;
+} */
+}
+
+.arrowcon {
+  position: relative;
+  top: 200px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section1 {
+  width: 86%;
+  /* display: inline-flex;justify-content: center;align-items: center;flex-direction: column; */
+}
+.slick-slide > div {
+  padding-left: 0px;
+  width: 330px;
+}
+
+.slick-slide .team {
+}
